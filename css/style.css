@@ -81,6 +81,7 @@ h3 {
 
 .task-list {
     list-style-type: none;
+    margin-bottom: 24px;
 }
 
 .task-item {
