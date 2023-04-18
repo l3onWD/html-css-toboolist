@@ -53,3 +53,9 @@ h1 {
     border-radius: 4px;
     padding: 4px 8px;
 }
+
+.command-btn.command-btn-secondary {
+    background-color: #fff;
+    color: #8f8f8f;
+    border: 1px solid #8f8f8f;
+}
