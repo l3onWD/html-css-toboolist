@@ -6,6 +6,24 @@
 }
 
 /* Generics */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-weight: 900;
+}
 
 /* Utilities */
+
+
+/* Header */
+#main-header {
+    padding: 10px 15px;
+}
+
+#logo {
+    vertical-align: middle;
+}
