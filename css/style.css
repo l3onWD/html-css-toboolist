@@ -98,3 +98,13 @@ h3 {
     width: 16px;
     height: 16px;
 }
+
+.task-check.task-checked {
+    color: #5dae5d;
+    border-color: #5dae5d;
+}
+
+.task-check.task-unchecked {
+    color: #ff4242;
+    border-color: #ff4242;
+}
