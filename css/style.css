@@ -84,10 +84,10 @@ h3 {
 }
 
 .task-item {
-    padding: 8px 0;
+    padding: 12px 0;
 }
 
-/* check mark */
+/* Check mark */
 .task-check {
     display: inline-block;
     font-size: 10px;
@@ -108,3 +108,37 @@ h3 {
     color: #ff4242;
     border-color: #ff4242;
 }
+
+/* Tags */
+.tag {
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    vertical-align: middle;
+    padding: 4px 8px;
+}
+
+.tag.tag-cyan {
+    background-color: #45abea;
+}
+
+.tag.tag-purple {
+    background-color: #9c72e4;
+}
+
+.tag.tag-teal {
+    background-color: #64c0a9;
+}
+
+.tag.tag-orange {
+    background-color: #f29e33;
+}
+
+.tag.tag-pink {
+    background-color: #d863a1;
+}
+
+.tag.tag-lime {
+    background-color: #b0c926;
+}
+
