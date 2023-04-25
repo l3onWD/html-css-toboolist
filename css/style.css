@@ -75,12 +75,12 @@ h3 {
     border-bottom: 1px solid #e9e9e9;
 }
 
-/* Task lists */
 .card-body {
     margin-top: 28px;
     padding: 0 20px;
 }
 
+/* Task lists */
 .task-list {
     list-style-type: none;
     margin-bottom: 24px;
