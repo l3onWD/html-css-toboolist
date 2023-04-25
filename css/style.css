@@ -23,13 +23,6 @@ h2 {
     font-size: 18px;
 }
 
-h3 {
-    display: inline;
-    vertical-align: middle;
-    font-size: 16px;
-    font-weight: normal;
-}
-
 /* Utilities */
 .container {
     max-width: 680px;
@@ -96,8 +89,12 @@ h3 {
     vertical-align: middle;
 }
 
+.task-description {
+    vertical-align: middle;
+}
+
 /* Check mark */
-.task-check {
+.task-status {
     display: inline-block;
     font-size: 10px;
     vertical-align: middle;
@@ -108,12 +105,12 @@ h3 {
     height: 16px;
 }
 
-.task-check.task-checked {
+.task-status.task-checked {
     color: #5dae5d;
     border-color: #5dae5d;
 }
 
-.task-check.task-unchecked {
+.task-status.task-unchecked {
     color: #ff4242;
     border-color: #ff4242;
 }
