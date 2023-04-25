@@ -18,91 +18,95 @@
         </header>
 
         <!-- Contenuto principale -->
-        <main class="container">
+        <main>
 
-            <!-- Comandi tasks -->
-            <header class="command-bar">
-                <button class="command-btn">Add Task</button>
-                <button class="command-btn command-btn-secondary">Add Section</button>
-            </header>
+            <div class="card container">
 
-            <!-- Contenitore delle liste -->
-            <div class="tasks-container">
+                <!-- Card header -->
+                <div class="card-header">
+                    <button class="btn">Add Task</button>
+                    <button class="btn btn-secondary">Add Section</button>
+                </div>
+                
+                <!-- Contenitore delle liste -->
+                <div class="card-body">
+                    
+                    <!-- Sezione new task -->
+                    <section>
+                        <ul class="task-list">
+                            <li class="task-header">
+                                <span class="task-header-icon">&#9660;</span>
+                                <h2>New Task</h2>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-checked">&check;</span>
+                                <h3>Quartely Newsletter</h3>
+                                <span class="tag tag-cyan">Editorial</span>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- Sezione today -->
+                    <section>
+                        <ul class="task-list">
+                            <li class="task-header">
+                                <span class="task-header-icon">&#9660;</span>
+                                <h2>Today</h2>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-checked">&check;</span>
+                                <h3>Recruiting blog post</h3>
+                                <span class="tag tag-cyan">Editorial</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-checked">&check;</span>
+                                <h3>Mobile app launch</h3>
+                                <span class="tag tag-purple">Q1-goals</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-unchecked">&cross;</span>
+                                <h3>Interview John H.</h3>
+                                <span class="tag tag-teal">Recruiting</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-checked">&check;</span>
+                                <h3>Summit update to mobile storefronts</h3>
+                                <span class="tag tag-orange">Mobile</span>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- Sezione upcoming -->
+                    <section>
+                        <ul class="task-list">
+                            <li class="task-header">
+                                <span class="task-header-icon">&#9660;</span>
+                                <h2>Upcoming</h2>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-unchecked">&cross;</span>
+                                <h3>Schedule Meeting with Alex</h3>
+                                <span class="tag tag-teal">Recruting</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-checked">&check;</span>
+                                <h3>Homepage refresh</h3>
+                                <span class="tag tag-pink">Website</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-unchecked">&cross;</span>
+                                <h3>Onboard new Sales team members</h3>
+                                <span class="tag tag-lime">Sales</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-check task-checked">&check;</span>
+                                <h3>Review editorial character</h3>
+                                <span class="tag tag-orange">Editorial</span>
+                            </li>
+                        </ul>
+                    </section>
 
-                <!-- Sezione new task -->
-                <section>
-                    <ul class="task-list">
-                        <li class="task-header">
-                            <span class="task-header-icon">&#9660;</span>
-                            <h2>New Task</h2>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-checked">&check;</span>
-                            <h3>Quartely Newsletter</h3>
-                            <span class="tag tag-cyan">Editorial</span>
-                        </li>
-                    </ul>
-                </section>
-
-                <!-- Sezione today -->
-                <section>
-                    <ul class="task-list">
-                        <li class="task-header">
-                            <span class="task-header-icon">&#9660;</span>
-                            <h2>Today</h2>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-checked">&check;</span>
-                            <h3>Recruiting blog post</h3>
-                            <span class="tag tag-cyan">Editorial</span>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-checked">&check;</span>
-                            <h3>Mobile app launch</h3>
-                            <span class="tag tag-purple">Q1-goals</span>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-unchecked">&cross;</span>
-                            <h3>Interview John H.</h3>
-                            <span class="tag tag-teal">Recruiting</span>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-checked">&check;</span>
-                            <h3>Summit update to mobile storefronts</h3>
-                            <span class="tag tag-orange">Mobile</span>
-                        </li>
-                    </ul>
-                </section>
-
-                <!-- Sezione upcoming -->
-                <section>
-                    <ul class="task-list">
-                        <li class="task-header">
-                            <span class="task-header-icon">&#9660;</span>
-                            <h2>Upcoming</h2>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-unchecked">&cross;</span>
-                            <h3>Schedule Meeting with Alex</h3>
-                            <span class="tag tag-teal">Recruting</span>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-checked">&check;</span>
-                            <h3>Homepage refresh</h3>
-                            <span class="tag tag-pink">Website</span>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-unchecked">&cross;</span>
-                            <h3>Onboard new Sales team members</h3>
-                            <span class="tag tag-lime">Sales</span>
-                        </li>
-                        <li class="task-item">
-                            <span class="task-check task-checked">&check;</span>
-                            <h3>Review editorial character</h3>
-                            <span class="tag tag-orange">Editorial</span>
-                        </li>
-                    </ul>
-                </section>
+                </div>
                 
             </div>
         </main>
